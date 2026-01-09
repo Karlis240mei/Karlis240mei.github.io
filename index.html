@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <title>KOLIBRI PRO SIA — Advertising & Marketing Consulting</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #0b0b0b;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        section {
+            padding: 90px 10%;
+        }
+
+        h1, h2, h3 {
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        h2 {
+            margin-bottom: 30px;
+            font-size: 34px;
+        }
+
+        p {
+            max-width: 900px;
+            opacity: 0.9;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 35px;
+            background: #ff2d55;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 40px;
+            margin-top: 30px;
+        }
+
+        /* HERO */
+        .hero {
+            height: 100vh;
+            background: linear-gradient(120deg, #ff2d55, #7b2cff);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .hero h1 {
+            font-size: 56px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            max-width: 700px;
+        }
+
+        /* GRID */
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 40px;
+        }
+
+        .card {
+            background: #151515;
+            padding: 30px;
+            border-radius: 20px;
+        }
+
+        /* CONTACT FULL */
+        .contact-full {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            gap: 60px;
+        }
+
+        .contact-text {
+            flex: 1;
+        }
+
+        .contact-image {
+            flex: 1;
+            background: url('https://images.unsplash.com/photo-1529333166437-7750a6dd5a70') center/cover no-repeat;
+            height: 420px;
+            border-radius: 30px;
+        }
+
+        /* FORM */
+        form {
+            max-width: 500px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            border: none;
+        }
+
+        button {
+            width: 100%;
+            padding: 15px;
+            background: #ff2d55;
+            border: none;
+            color: #fff;
+            font-weight: bold;
+            border-radius: 30px;
+            cursor: pointer;
+        }
+
+        footer {
+            background: #050505;
+            padding: 40px 10%;
+            font-size: 14px;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- 1. HERO -->
+<section class="hero">
+    <h1>KOLIBRI PRO SIA</h1>
+    <p>
+        Reklāmas, mārketinga, zīmola un e-komercijas konsultāciju aģentūra, kas palīdz uzņēmumiem augt digitālajā vidē.
+        Mēs strādājam ar datiem, radošumu un stratēģiju, lai pārvērstu idejas izmērāmos rezultātos.
+    </p>
+    <a href="#contacts" class="btn">Kontakti</a>
+</section>
+
+<!-- 2. ABOUT -->
+<section>
+    <h2>Kas mēs esam patiesībā</h2>
+    <p>
+        KOLIBRI PRO SIA ir neatkarīga konsultāciju kompānija, kas fokusējas uz praktiskiem risinājumiem reklāmas un e-komercijas vidē.
+        Mēs nevis pārdodam abstraktas idejas, bet analizējam biznesa situāciju un piedāvājam skaidru rīcības plānu.
+        Mūsu pieredze ietver darbu ar zīmolu pozicionēšanu, digitālajām kampaņām un tiešsaistes pārdošanas optimizāciju.
+        Katrs projekts sākas ar datu analīzi, nevis pieņēmumiem.
+        Mēs strādājam cieši ar klienta komandu un runājam biznesa valodā.
+    </p>
+</section>
+
+<!-- 3. SERVICES -->
+<section>
+    <h2>Ko mēs darām vislabāk</h2>
+    <div class="grid-3">
+        <div class="card">
+            <h3>Reklāmas un mārketinga stratēģija</h3>
+            <p>
+                Izstrādājam mārketinga stratēģijas, kas balstītas uz tirgus datiem un auditorijas uzvedību.
+                Definējam kanālus, budžetus un KPI.
+                Palīdzam ieviest stratēģiju praksē, ne tikai prezentācijās.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Zīmola pozicionēšana</h3>
+            <p>
+                Analizējam zīmola uztveri tirgū un konkurences vidi.
+                Formulējam skaidru zīmola vērtības piedāvājumu.
+                Nodrošinām konsekventu komunikāciju visos kanālos.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>E-komercijas konsultācijas</h3>
+            <p>
+                Palīdzam uzlabot tiešsaistes veikalu struktūru un pārdošanas piltuvi.
+                Strādājam ar konversijas optimizāciju un lietotāja pieredzi.
+                Fokusējamies uz ilgtermiņa ieņēmumu pieaugumu.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- 4. ADVANTAGES -->
+<section>
+    <h2>Kāpēc klienti izvēlas mūs</h2>
+    <div class="grid-3">
+        <div class="card">
+            <h3>Pragmatiska pieeja</h3>
+            <p>
+                Mēs nepiedāvājam modes risinājumus bez pamatojuma.
+                Katrs ieteikums ir saistīts ar biznesa mērķiem un rezultātiem.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Datu domāšana</h3>
+            <p>
+                Lēmumi tiek pieņemti, balstoties uz analītiku, nevis intuīciju.
+                Tas samazina riskus un palielina efektivitāti.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Elastīga sadarbība</h3>
+            <p>
+                Strādājam gan kā konsultanti, gan kā paplašinājums jūsu komandai.
+                Pielāgojamies uzņēmuma tempam un vajadzībām.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- 5. PROCESS -->
+<section>
+    <h2>Kā notiek sadarbība</h2>
+    <div class="grid-3">
+        <div class="card">
+            <h3>1. Analīze</h3>
+            <p>
+                Iepazīstamies ar biznesu, tirgu un esošajiem datiem.
+                Identificējam problēmas un izaugsmes punktus.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>2. Stratēģija</h3>
+            <p>
+                Izstrādājam konkrētu rīcības plānu ar skaidriem mērķiem.
+                Definējam prioritātes un resursus.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>3. Realizācija un uzraudzība</h3>
+            <p>
+                Atbalstām ieviešanu un sekojam rezultātiem.
+                Nepārtraukti optimizējam pieeju.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- 6. CONTACT FULL -->
+<section class="contact-full" id="contacts">
+    <div class="contact-text">
+        <h2>Sāksim sarunu</h2>
+        <p>
+            Ja vēlaties skaidri saprast, kā uzlabot savu mārketingu vai e-komerciju,
+            sazinieties ar mums pa e-pastu.
+            Mēs atbildam personīgi un bez liekas birokrātijas.
+        </p>
+        <p>
+            <strong>E-pasts:</strong> info@kolibripro.agency<br>
+            <strong>Adrese:</strong> 14–15 Stopiņu iela, Rīga, LV-1035
+        </p>
+    </div>
+
+    <div class="contact-image"></div>
+</section>
+
+<!-- 7. FORM -->
+<section>
+    <h2>Ātrs pieprasījums</h2>
+    <p>
+        Atstājiet savu kontaktinformāciju, un mēs ar jums sazināsimies tuvākajā laikā.
+    </p>
+
+    <form>
+        <input type="text" placeholder="Vārds">
+        <input type="email" placeholder="E-pasts">
+        <textarea rows="4" placeholder="Īss jautājums vai apraksts"></textarea>
+        <button type="submit">Nosūtīt</button>
+    </form>
+</section>
+
+<!-- 8. FOOTER -->
+<footer>
+    © 2026 KOLIBRI PRO SIA — Advertising, Marketing, Brand & E-commerce Consulting<br>
+    Riga, Latvia
+</footer>
+
+</body>
+</html>
